@@ -141,7 +141,8 @@ router.post('/verify', async (ctx, next) => {
     from: `"认证邮件" <${dbConfig.smtp.user}>`,
     to: temp.email,
     subject: "WanFengZ's 毕业设计注册验证码",
-    html: `您的验证码是${temp.code}`
+    html: `您的验证码是${temp.code}`,
+    secureConnection: true
   }
 
   await transporter.sendMail(mailOption, (error, info) => {

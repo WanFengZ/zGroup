@@ -19,7 +19,7 @@ export default {
       return '3076465288@qq.com'
     },
     get pass() {
-      return 'rvrrnbisruwzdecf'
+      return 'azxylmafnhtnddcf'
     },
     get code() {
       return () => {
