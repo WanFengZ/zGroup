@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+@mixin page-center {
+  width: $pageInnerWidth;
+  margin: 0 auto;
+}
+
+@mixin h-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin v-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+

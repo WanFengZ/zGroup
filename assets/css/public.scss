@@ -1,0 +1,14 @@
+@import '~@/assets/css/variables.scss';
+
+.clearfix{
+  *zoom: 1;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+.border-bottom {
+  border-bottom: 1px solid $mainBorderColor;
+}
